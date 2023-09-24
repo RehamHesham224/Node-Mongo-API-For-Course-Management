@@ -54,7 +54,7 @@ app.use((err,req,res,next)=>{
 
 
 //server listening
-app.listen(process.env.PORT||3000,process.env.APP_URL,()=>{
-    console.log('Server is running on port 3000');
+app.listen(process.env.PORT||4000,process.env.APP_URL,()=>{
+    console.log('Server is running on port',process.env.PORT||4000);
 });
 
