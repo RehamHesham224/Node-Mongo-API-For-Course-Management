@@ -15,11 +15,9 @@ This Node.js application is a simple API for managing courses. It allows you to 
         - or get details about a specific course.
     - Update Courses: Modify the information of existing courses, such as updating the title, price.
     - Delete Courses: Remove courses from the system.
+ 
+- Authentication and Authorization:
 
-- Authentication  & Autherization
-    - Register user 
-        - based on role "allowTo Middleware"
-        - or default user using "verifyToken Middleware"
-        - Upload Avatar Image
-    - Login User.
-    - Get All Users.
+    - User Registration: Users can register based on roles. The "allowTo" middleware restricts access based on user roles, while the "verifyToken" middleware ensures secure authentication. Users can also upload an avatar image.
+    - User Login: Users can log in securely to access protected resources.
+    - User Management: Retrieve a list of all users for administrative purposes.
