@@ -4,17 +4,13 @@ This Node.js application is a simple API for managing courses. It allows you to 
 
 ## Features
 
-- Integrate Mongodb with Node Express App
+- MongoDB Integration: Seamlessly integrates with MongoDB as the database system, providing a robust and scalable data storage solution.
 
 - Course CRUD Operation
-    - Create Courses: 
-        - Add new courses to the system with a title, price.
-        - Make Two Types Validation on DB Schem and Application layer.
-    - Read Courses: 
-        - Retrieve a list of all courses using pagination. 
-        - or get details about a specific course.
-    - Update Courses: Modify the information of existing courses, such as updating the title, price.
-    - Delete Courses: Remove courses from the system.
+    - Create Courses: Add new courses to the system with a title, price, and additional details. Incorporates two layers of validation, both at the database schema level and application layer to ensure data integrity.
+    - Read Courses: Retrieve a list of all courses with pagination support or access details about a specific course.
+    - Update Courses: Modify the information of existing courses, including updating titles, prices, and other attributes.
+    - Delete Courses: Remove courses from the system, keeping your course catalog up-to-date.
  
 - Authentication and Authorization:
 
